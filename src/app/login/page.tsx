@@ -86,10 +86,10 @@ export default function Page() {
             <p className="text-lg text-neutral-600">
               Nikmati kembali kemudahan membuat undangan digital bersama VOOW
             </p>
-            <form action="" className="w-full pt-14">
+            <div className="w-full pt-14">
               <TextInput label={"Email atau No. Hp"} />
               <TextInput label={"Password"} type={"password"} />
-            </form>
+            </div>
           </div>
         </div>
       </section>

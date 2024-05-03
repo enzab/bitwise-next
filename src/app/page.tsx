@@ -346,72 +346,6 @@ export default function Home() {
             </p>
           </div>
         </div>
-
-        {/* <div className="lg:grid lg:grid-cols-3 lg:gap-6">
-          <div className="flex w-[441px] flex-col space-y-6 rounded-lg border-2 p-6">
-            <div className="flex items-center space-x-2">
-              <Image
-                src={"/img/testimoni-1.png"}
-                alt="testimoni-1"
-                width={60}
-                height={60}
-              />
-              <div className="flex flex-col">
-                <h6 className="text-bold text-xl text-neutral-900">
-                  Arlene McCoy
-                </h6>
-                <p className="text-base text-neutral-500">2023</p>
-              </div>
-            </div>
-            <p>
-              Aplikasi undangan digital website paling keren sih ini 👍🏻 Proses
-              dari pembelian, pembayaran dan pembuatan undangannya cepat dan
-              mudah. Pilihan tema dan lagunya juga lengkap 😍 mantappp 💫
-            </p>
-          </div>
-          <div className="hidden w-[441px] flex-col space-y-6 rounded-lg border-2 p-6 lg:flex">
-            <div className="flex items-center space-x-2">
-              <Image
-                src={"/img/testimoni-1.png"}
-                alt="testimoni-1"
-                width={60}
-                height={60}
-              />
-              <div className="flex flex-col">
-                <h6 className="text-bold text-xl text-neutral-900">
-                  Arlene McCoy
-                </h6>
-                <p className="text-base text-neutral-500">2023</p>
-              </div>
-            </div>
-            <p>
-              Aplikasi undangan digital website paling keren sih ini 👍🏻 Proses
-              dari pembelian, pembayaran dan pembuatan undangannya cepat dan
-              mudah. Pilihan tema dan lagunya juga lengkap 😍 mantappp 💫
-            </p>
-          </div>
-          <div className="hidden w-[441px] flex-col space-y-6 rounded-lg border-2 p-6 lg:flex">
-            <div className="flex items-center space-x-2">
-              <Image
-                src={"/img/testimoni-1.png"}
-                alt="testimoni-1"
-                width={60}
-                height={60}
-              />
-              <div className="flex flex-col">
-                <h6 className="text-bold text-xl text-neutral-900">
-                  Arlene McCoy
-                </h6>
-                <p className="text-base text-neutral-500">2023</p>
-              </div>
-            </div>
-            <p>
-              Aplikasi undangan digital website paling keren sih ini 👍🏻 Proses
-              dari pembelian, pembayaran dan pembuatan undangannya cepat dan
-              mudah. Pilihan tema dan lagunya juga lengkap 😍 mantappp 💫
-            </p>
-          </div>
-        </div> */}
       </section>
 
       <section className="container flex w-full max-w-[1440px] flex-col">
@@ -751,7 +685,7 @@ export default function Home() {
         </p>
       </section>
 
-      <footer className="sticky bottom-0 lg:hidden">
+      <div className="sticky bottom-0 lg:hidden">
         <div className="flex h-[70px] w-full items-center justify-between bg-neutral-50 px-5 py-3">
           <div className="flex flex-col justify-center">
             <Image
@@ -804,7 +738,7 @@ export default function Home() {
             <p className="text-center text-[10px] text-neutral-300">Akun</p>
           </div>
         </div>
-      </footer>
+      </div>
     </main>
   );
 }
